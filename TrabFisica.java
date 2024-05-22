@@ -54,9 +54,9 @@ public class TrabFisica2 {
                 
                 double deltaL = (t2 * L1 - t1 * L1) / t1;
 
-                JOptionPane.showMessageDialog(frame, String.format("A diferenÁa m·xima permitida (L2 - L1) È: %.3f metros", deltaL));
+                JOptionPane.showMessageDialog(frame, String.format("A diferen√ßa m√°xima permitida (L2 - L1) √©: %.3f metros", deltaL));
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(frame, "Por favor, insira valores v·lidos.", "Erro", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(frame, "Por favor, insira valores v√°lidos.", "Erro", JOptionPane.ERROR_MESSAGE);
             }
         });
         panel.add(calcularButton);
